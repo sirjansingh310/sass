@@ -1,0 +1,15 @@
+.parent {
+  margin: 10px;
+  
+  .child { // <div class="parent"><div class="child"> child </div> </div> only to nested child
+      background-color: blue;
+  }
+  
+  &.contiune {// <div class="parent continue"> </div>// both parent and child css applied
+      background: red; 
+  }
+  
+  &__continue { //<div class = "parent__continue"> </div>// parent__continue acts as new class altogether
+      margin: 100px;
+  }
+}

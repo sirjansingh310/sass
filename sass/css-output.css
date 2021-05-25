@@ -1,0 +1,12 @@
+.parent {
+  margin: 10px;
+}
+.parent .child {
+  background-color: blue;
+}
+.parent.contiune {
+  background: red;
+}
+.parent__continue {
+  margin: 100px;
+}
